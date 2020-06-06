@@ -1,0 +1,14 @@
+[
+  {
+    "key": "sword1",
+    "attack_damage": 10,
+    "durability": 2000,
+    "repair_material": "COBBLESTONE"
+  },
+  {
+    "key": "sword2",
+    "attack_damage": 6,
+    "durability": 1445,
+    "repair_material": "DIAMOND"
+  }
+]
