@@ -7,5 +7,5 @@ import net.minecraft.nbt.CompoundNBT
 import net.minecraft.util.ResourceLocation
 import org.aj.ajcombat.init.ModItemGroups
 
-class AdvancedSword(attackDamage:Int, repairItem:Ingredient): SwordItem(AdvancedSwordTier(repairItem, 5,attackDamage.toFloat()),
+class AdvancedSword(attackDamage:Int, repairItem:Ingredient): SwordItem(AdvancedSwordTier(repairItem, 5),
         attackDamage, 1.6f, Properties().group(ModItemGroups.CUSTOM_SWORDS))
